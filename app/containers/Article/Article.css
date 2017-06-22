@@ -1,0 +1,59 @@
+.tab-content-row {
+    display: flex;
+    padding: 0.5em;
+}
+
+.input-block {
+    flex: 1 1;
+    padding: 1.2em;
+    margin: 0.5em;
+}
+
+.image-select {
+    display: flex;
+}
+
+.image-select-input {
+    flex: 1 1 80%;
+}
+
+.image-select-button {
+    flex: 1 1 20%;
+    margin-left: 1em;
+    align-self: center;
+}
+
+.publication-date-row {
+    display: flex;
+}
+
+.publication-date,
+.publication-time {
+    flex: 1
+}
+
+.introtext-block {
+    border: 1px dashed #dcdcdc;
+}
+
+.main-img-container,
+.main-img-uploader-trigger,
+.main-img {
+    width: 150px;
+    height: 150px;
+}
+
+.main-img-container {
+    display: block;
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.main-img-container .main-img-uploader-trigger {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28px;
+    color: #999;
+}

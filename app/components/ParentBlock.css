@@ -1,0 +1,31 @@
+.block-container{
+    display: flex;
+    margin: 2px 0;
+}
+
+.block-container .content {
+    border: 1px dashed #dcdcdc;
+    flex: 1 1;
+    margin-right: 10px;
+}
+
+.editableBlock {
+    display: flex;
+}
+
+.editableContainer {
+    flex: 1;
+    min-height: 20px;
+    border: 1px dashed #666;
+}
+
+.block-actions {
+    flex: 0 0 50px;
+    display: flex;
+    flex-direction: column
+}
+
+.add-action{
+    text-align: center;
+}
+

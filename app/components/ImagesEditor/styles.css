@@ -1,0 +1,27 @@
+.images-grid-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.img-card,
+.upload-card {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.img-card img{
+    width: 100%;
+
+    display: block;
+}
+
+.upload-card .plus {
+    font-size: 24px;
+}
+
+.upload-card {
+    border-style: dashed;
+    cursor: pointer;
+}
